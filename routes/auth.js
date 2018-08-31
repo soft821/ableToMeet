@@ -47,7 +47,7 @@ router.post('/signup', async function(req, res, next) {
             res.redirect('/');
         })
         .catch(error => {
-            res.redirect('auth/signup');
+            res.redirect('/auth/signup');
         });
 });
 
